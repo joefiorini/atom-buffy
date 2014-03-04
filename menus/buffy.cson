@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable buffy': 'buffy:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'buffy'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'buffy:toggle' }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "buffy",
+  "main": "./lib/buffy",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A short description of your package",
+  "activationEvents": ["buffy:toggle"],
+  "repository": "https://github.com/atom/buffy",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
