@@ -9,3 +9,7 @@
 # https://atom.io/docs/latest/advanced/keymaps
 '.workspace':
   'ctrl-alt-o': 'buffy:toggle'
+
+'body':
+  'cmd-{': 'buffy:previous-tab'
+  'cmd-}': 'buffy:next-tab'
